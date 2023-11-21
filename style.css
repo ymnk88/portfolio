@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a img:hover {
+  opacity: .3;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  width: calc(100% - 64px);
+  box-sizing: border-box;
+}
+
+/* header */
+
+header {
+  text-align: center;
+  padding: 64px 0 0;
+}
+
+/* contents */
+.contents {
+  margin: 0 auto;
+}
+
+.contents ul {
+  margin: 32px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contents li {
+  width: calc((100% - 40px) / 3);
+  box-sizing: border-box;
+}
+
+.contents img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  margin: 0;
+}
+
+/* footer */
+
+footer {
+  margin-top: 32px;
+  padding-bottom: 64px;
+}
+
+small p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  cursor: pointer;
+  opacity: .5;
+}
+
+@media (max-width: 500px) {
+
+  header img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .contents ul {
+    margin: 32px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .contents li {
+    width: calc((100% - 10px) / 2);
+    box-sizing: border-box;
+  }
+
+  /* 下層 */
+
+  .desc li {
+    margin-top: 16px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/* 下層 */
+
+.content h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.desc div {
+  display: flex;
+}
+
+.category {
+  flex-direction: column;
+}
+
+.desc li {
+  margin-top: 16px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.tag {
+  background: #000;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 14px;
+  border-radius: 16px;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.tool {
+  flex-direction: column;
+}
+
+.content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  padding: 8px 20px;
+  border: 2px solid black;
+  font-size: 16px;
+  border-radius: 8px;
+  background: white;
+  margin-top: 32px;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.btn:hover {
+  opacity: .3;
+}
+
+.pic {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.pic-area {
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.pic-area img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bnr-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px;
+  text-align: center;
+  margin-top: 32px;
+}
