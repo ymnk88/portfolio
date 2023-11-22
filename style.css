@@ -92,7 +92,7 @@ footer a {
 
 footer a:hover {
   cursor: pointer;
-  opacity: .5;
+  opacity: .3;
 }
 
 @media (max-width: 500px) {
@@ -125,6 +125,9 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .desc li p {
+    margin-top: 8px;
+  }
 }
 
 /* 下層 */
@@ -165,6 +168,11 @@ footer a:hover {
 
 .tool {
   flex-direction: column;
+}
+
+.lp {
+  max-width: 100%;
+  height: auto;
 }
 
 .content ul {
