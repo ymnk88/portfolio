@@ -22,8 +22,12 @@ img {
   vertical-align: bottom;
 }
 
-a img:hover {
-  opacity: .3;
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: .5;
 }
 
 .container {
@@ -66,6 +70,23 @@ header {
 
 li {
   margin: 0;
+}
+
+.con-tag {
+  font-weight: bold;
+  color: white;
+  background: black;
+  font-size: 12px;
+  padding:4px 12px;
+  border-radius: 16px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.con-title {
+  font-size: 16px;
+  color: black;
+  margin-top:4px;
 }
 
 /* footer */
@@ -129,8 +150,6 @@ footer a:hover {
     margin-top: 8px;
   }
 }
-
-/* 下層 */
 
 .content {
   margin-top: 32px;
